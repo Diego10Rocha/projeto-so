@@ -9,8 +9,8 @@ public class Mae extends Thread{
 
                 geladeira.encher();
                 System.out.println(geladeira.getLitrosDeLeite());
-                geladeira.EM_USO = 0;
             }
+            geladeira.EM_USO = 0;
         }
     }
 }
